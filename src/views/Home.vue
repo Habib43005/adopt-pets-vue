@@ -1,7 +1,7 @@
 <template>
-  <div class="home">
+  <div class="home-view-container">
     <h1>Adopt a new best friend</h1>
-    <h2>How many cats: {{ getAllCats.length }}</h2>
+    <!-- <h2>How many cats: {{ getAllCats.length }}</h2> -->
     <h2>Animals Count: {{ animalsCount }}</h2>
     <button @click="togglePetForm" class="btn btn-primary">Add New Pet</button>
     <b-form @submit.prevent="handleSubmit" v-if="showPetForm">
